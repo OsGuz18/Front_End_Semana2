@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>BakerID</title>
+</head>
+<body>
+    <header>
+        
+        <section class="upper">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Productos</li>
+                    <li>Encuentranos</li>
+                    <li>Conócenos</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+            
+            <div>
+                <div>
+                    <img src="./img/logo_size_invert.jpg" alt="Logo" class="Logo">
+                </div>
+                <div class="Main1">
+                    <h1 class="Main">BakerID Calidad que sabe</h1>
+                </div>
+                <div class="datos1">
+                    <ul class="datos">
+                        <li>
+                            Dirección : Calle inventada 123
+                        </li>
+                        <li>
+                            Teléfono: 22-22-65-45-90
+                        </li>
+                        <li>Horario:Lun-Vier 9:00 a.m. - 8:00 p.m.  </li>
+                    </ul>
+                </div>
+            </div>
+            
+        
+        </section>
+    </header>
+
+    <main class="cuerpo">
+        <div>
+            <img src="./img/Pastelero.webp" width="400px" alt="pastelero">
+        </div>
+        <div class="seleccion">
+            <h2>¡¡Arma tu pastel!!</h2>
+            <br>
+            <form action="" class="formUserLogin">
+                <section class="correo">
+                    <label for="nombre"> Nombre (*)</label>
+                   <input type="text" name="nombre" id="nombre"  placeholder="Nombre completo" class="email" >
+                </section>
+                <section class="correo">
+                    <label for="nombre"> Teléfono (*) </label>
+                   <input type="tel" name="telefono" id="telefono"  placeholder="Telefono" class="email" >
+                </section>
+                <section class="correo">
+                    <label for="email"> Email (*) </label>
+                   <input type="email" name="email" id="email"  placeholder="Email" class="email" >
+                </section>
+                <section class="productCreation">
+                    <label for="description" class="formLabel"> Descripción (*) </label>
+                    <input type="text" name="description" id="description" class="description" value="" >   
+                </section>
+                <br>
+
+                <h3>Selecciona la cantidad de sabores</h3>
+                <div class="eleccion">
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="uno">
+                            <label for="uno">Un sabor - $100</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="dos">
+                            <label for="dos">Dos sabores - $200</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="tres">
+                            <label for="tres">Tres sabores - $300</label>
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <h3>Selecciona los sabores</h3>
+                <div class="eleccion">
+                    <ul>
+                        <li class="list">
+                            <input type="checkbox" id="dos">
+                            <div>
+                                <img src="./img/chocolate.webp" width="50%" height="75%" alt="">
+                                <br>
+                                <label class="price" for="dos">$50</label>
+                            </div>
+                        </li>
+                        <li class="list">
+                            <input type="checkbox" id="dos">
+                            <div>
+                                <img src="./img/fresa.jpg" width="70%" height="75%" alt="">
+                                <br>
+                                <label class="price" for="dos">$60</label>
+                            </div>
+                        </li>
+                        <li class="list">
+                            <input type="checkbox" id="dos">
+                            <div>
+                                <img src="./img/vainilla.jpg" width="70%" height="75%" alt="">
+                                <br>
+                                <label class="price" for="dos">$40</label>
+                            </div>
+                        </li>
+                        <li class="list">
+                            <input type="checkbox" id="dos">
+                            <div>
+                                <img src="./img/cafe.jpg" width="70%" height="75%" alt="">
+                                <br>
+                                <label class="price" for="dos">$70</label>
+                            </div>
+                        </li>
+                        <li class="list">
+                            <input type="checkbox" id="dos">
+                            <div>
+                                <img src="./img/tres.jpg" width="70%" height="75%" alt="">
+                                <br>
+                                <label class="price" for="dos">$90</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <br>
+
+                <h3>Selecciona la cantidad de adornos</h3>
+                <div class="eleccion">
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="uno">
+                            <label for="uno">Un adorno - $70</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="dos">
+                            <label for="dos">Dos adornos - $120</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="tres">
+                            <label for="tres">Tres adornos - $140</label>
+                        </li>
+                    </ul>
+                </div>
+                <br>
+
+                <h3>Selecciona los adornos</h3>
+                <div class="eleccion">
+                    <ul>
+                        <li class="list">
+                            <input type="checkbox" id="dos">
+                            <div>
+                                <img src="./img/chispas.jpg" width="50%" height="75%" alt="">
+                                <br>
+                                <label class="price" for="dos">$20</label>
+                            </div>
+                        </li>
+                        <li class="list">
+                            <input type="checkbox" id="dos">
+                            <div>
+                                <img src="./img/fruta.jpg" width="50%" height="75%" alt="">
+                                <br>
+                                <label class="price" for="dos">$50</label>
+                            </div>
+                        </li>
+                        <li class="list">
+                            <input type="checkbox" id="dos">
+                            <div>
+                                <img src="./img/nutella.jpg" width="50%" height="75%" alt="">
+                                <br>
+                                <label class="price" for="dos">$70</label>
+                            </div>
+                        </li>
+                        <li class="list">
+                            <input type="checkbox" id="dos">
+                            <div>
+                                <img src="./img/cajeta.webp" width="50%" height="75%" alt="">
+                                <br>
+                                <label class="price" for="dos">$60</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container_foot2">
+
+            <ul class="vinculos_footer">
+                 <b>INFORMACIÓN</b> 
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Visión, Misión y Valores</a></li>
+                <li><a href="#">Trabaja con nosotros</a></li>
+                <li><a href="#">Otros recursos</a></li>
+            </ul>
+    
+            <ul class="vinculos_footer">
+                <b>ATENCIÓN A CLIENTES</b> 
+                <li><a href="#">Quejas y sugerencias</a></li>
+                <li><a href="#">Soporte</a></li>
+                <li><a href="#">Garantías</a></li>
+            </ul>
+    
+            <ul class="vinculos_footer_Contact">
+                <b>CONTACTO</b>
+                <div class="socialMedia">
+                <a href="#"><img src="./img/FaceLogo.png" class="FaceLogo"></a>
+                <a href="#"><img src="./img/twitterLogo.png" class="twitterLogo"></a>
+                </div>
+            </ul>
+    
+        </div>
+
+    </footer>
+</body>
+</html>
